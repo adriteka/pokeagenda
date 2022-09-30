@@ -1,0 +1,63 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+.box {
+  margin: 4rem auto;
+  max-width: 600px;
+}
+
+#filtro {
+  display: flex;
+  gap: 1rem;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#filtro > label {
+  margin-bottom: 0;
+  align-self: center;
+  justify-self: center;
+}
+
+#input-filtro {
+  width: 75%;
+}
+
+#btn-reset {
+    white-space: nowrap;
+}
+
+h1 {
+  grid-column: span 2;
+  text-align: center;
+  font-size: x-large;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+  padding-bottom: 1em;
+}
+
+#lista {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#lista li {
+  border-top: 1px solid #ddd;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+#lista li h2 {
+  text-align: center;
+}
+
+#lista li img {
+  display: block;
+  margin: 0 auto;
+}
+
+.box {
+  padding: 2rem;
+}

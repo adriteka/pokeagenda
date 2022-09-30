@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokeAgenda</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="box">
+        <h1>PokeAgenda</h1>
+        <div id="filtro">
+          <label for="input-filtro" class="label">Filtro: </label>
+          <input
+            id="input-filtro"
+            type="text"
+            class="input"
+            placeholder="texto en el nombre del bicho"
+          />
+          <button id="btn-reset" class="button">Reset filtro</button>
+        </div>
+        <ul id="lista"></ul>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
